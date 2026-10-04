@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Ensures CSS/JS/images load correctly on GitHub Pages (any repo name) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Portfolio</title>
+    <meta name="description" content="Portfolio of Sabbir Hossain — projects, skills, and journey in design and development.">
+    <meta name="theme-color" content="#07070a">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="icon" href="images/icons/icon.png" type="image/png">
+    <link rel="apple-touch-icon" href="images/icons/icon.png">
+
+    <!-- Link preview (Open Graph + Twitter) — without these, apps often grab the first image (your LinkedIn icon) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mdsabbir191983-png.github.io/">
+    <meta property="og:title" content=Sabbir Hossain| Portfolio">
+    <meta property="og:description" content="Welcome to my portfolio — projects, skills, and journey in design and development. Get in touch.">
+    <meta property="og:image" content="https://mdsabbir191983-png.github.io/images/icons/icon.png">
+    <meta property="og:image:alt" content="Sabbir Hossain">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Sabbir Hossain| Portfolio">
+    <meta name="twitter:description" content="Welcome to my portfolio — projects, skills, and journey in design and development.">
+    <meta name="twitter:image" content="https://mdsabbir191983-png.github.io/images/icons/icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script>
+    (function(){ if (sessionStorage.getItem('loaderShown')) { document.documentElement.classList.add('loader-already-shown'); } })();
+    </script>
+    <!-- Loading screen (from Uiverse.io by ashish-yadv) -->
+    <div class="page-loader" id="page-loader" aria-hidden="true">
+        <ul class="loader">
+            <li class="ball"></li>
+            <li class="ball"></li>
+            <li class="ball"></li>
+        </ul>
+    </div>
+    <header class="site-header">
+        <nav class="nav" aria-label="Main navigation">
+            <a href="index.html" class="nav-logo">Portfolio</a>
+            <button class="nav-toggle" aria-label="Toggle menu" type="button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button type="button" class="theme-toggle" aria-label="Toggle theme">Theme</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main home-page">
+        <section class="hero">
+            <div class="hero-orb hero-orb-1" aria-hidden="true"></div>
+            <div class="hero-orb hero-orb-2" aria-hidden="true"></div>
+            <div class="hero-orb hero-orb-3" aria-hidden="true"></div>
+            <div class="hero-inner">
+                <div class="hero-content">
+                    <p class="hero-status"><span class="hero-status-dot"></span> Available for Collaboration</p>
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1 class="hero-name">Sabbir Hossain</h1>
+                    <!-- Role styles: add style-gradient | style-underline | style-glow | style-warm to hero-role class to change -->
+                    <p class="hero-role" aria-live="polite">
+                        <span class="hero-role-wrap">
+                            <span class="hero-role-text" id="hero-role-text"></span>
+                            <span class="hero-role-cursor" aria-hidden="true"></span>
+                        </span>
+                    </p>
+                    <p class="hero-welcome">Welcome to my portfolio. Here you'll find my projects, skills, and Experiences. Explore and get in touch.</p>
+                    <nav class="hero-social" aria-label="Social links">
+                        <a href="https://www.linkedin.com/in/sabbir-hossain-bb262943b" class="hero-social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img src="images/social/linkedin.png" alt="" class="hero-social-icon"></a>
+                        <a href="https://www.facebook.com/share/1KJBaVzWdW/?mibextid=wwXIfr/" class="hero-social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><img src="images/social/facebook.png" alt="" class="hero-social-icon"></a>
+                        <a href="https://www.instagram.com/s__a_y_em?stkn=eDd1YmtoNG93MWFx&utm_source=qr/" class="hero-social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img src="images/social/instagram.png" alt="" class="hero-social-icon"></a>
+                    </nav>
+                    <div class="hero-cta">
+                        <a href="about.html" class="btn btn-primary">About Me</a>
+                        <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrap">
+                    <img src="images/img.sabbir.jpeg" alt="Sabbir Hossain" class="hero-profile-img" onerror="this.style.display='none'; this.nextElementSibling.classList.add('visible');">
+                    <div class="hero-profile-placeholder">Add your photo as images/profile_image1.jpg</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p class="footer-copy">&copy; 2026 Sabbir Hossain</p>
+            <span class="footer-badge">Portfolio Site · Developed by Sabbir</span>
+        </div>
+    </footer>
+    <button type="button" class="scroll-top" aria-label="Scroll to top" title="Scroll to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+    </button>
+    <script src="js/script.js"></script>
+    <script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>
